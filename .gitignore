@@ -1,0 +1,54 @@
+# Sistema operativo y archivos temporales
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Configuración local de editores
+.idea/
+.vscode/
+
+# Credenciales y configuración privada
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / notebooks (si se incorporan más adelante)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Entradas privadas y ejecuciones generadas; documentar su procedencia aparte
+data/private/
+data/raw/
+data/generated/
+results/runs/
+
+# Archivos auxiliares de escritura LaTeX; conservar fuentes y PDFs finales
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
